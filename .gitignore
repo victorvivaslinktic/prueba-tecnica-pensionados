@@ -1,0 +1,47 @@
+# OS / editors
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+*.code-workspace
+
+# Node / Next.js (afecta a cualquier subcarpeta)
+**/node_modules/
+**/.next/
+**/out/
+**/.turbo/
+**/.vercel/
+**/coverage/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+**/*.log
+
+# Variables de entorno (conserva los ejemplos)
+**/.env
+**/.env.*
+!**/.env.example
+!**/.env.*.example
+!**/.env.local.example
+
+# Python (Lambda / tests)
+**/__pycache__/
+**/*.py[cod]
+**/*$py.class
+**/.pytest_cache/
+**/.mypy_cache/
+**/.ruff_cache/
+**/.coverage*
+**/htmlcov/
+**/.venv/
+**/venv/
+**/.tox/
+**/.python-version
+**/*.egg-info/
+**/dist/
+**/build/
+
+# Empaques Lambda (si los generas)
+**/package.zip
